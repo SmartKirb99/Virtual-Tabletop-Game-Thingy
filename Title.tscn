@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://bdl00kcef7pw7"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1kewk"]
+sky_curve = 0.0588438
+sun_angle_max = 360.0
+
+[sub_resource type="Sky" id="Sky_lxmib"]
+sky_material = SubResource("ProceduralSkyMaterial_1kewk")
+
+[sub_resource type="Environment" id="Environment_wps4g"]
+background_mode = 2
+sky = SubResource("Sky_lxmib")
+
+[sub_resource type="MeshLibrary" id="MeshLibrary_71d02"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_bbpkm"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 5.36447e-08, 0.789598, 0.613624, -6.90289e-08, 0.613624, -0.789598, 0, 2.98926, -3.05423)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_wps4g")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 6.1924, 0.595535)
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = SubResource("MeshLibrary_71d02")
+physics_material = SubResource("PhysicsMaterial_bbpkm")
