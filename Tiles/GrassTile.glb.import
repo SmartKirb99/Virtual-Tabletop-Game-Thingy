@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://btbwudxhee0jh"
-path="res://.godot/imported/Shoreline Tile.glb-7de81e2711cb32fbeb64c92e8ad38709.scn"
+uid="uid://ck1uo4bqam5ee"
+path="res://.godot/imported/GrassTile.glb-75a784ac2f4eda717bdea9de5d782260.scn"
 
 [deps]
 
-source_file="res://Tiles/Shoreline Tile.glb"
-dest_files=["res://.godot/imported/Shoreline Tile.glb-7de81e2711cb32fbeb64c92e8ad38709.scn"]
+source_file="res://Tiles/GrassTile.glb"
+dest_files=["res://.godot/imported/GrassTile.glb-75a784ac2f4eda717bdea9de5d782260.scn"]
 
 [params]
 

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://d225oex3ukjge"
-path="res://.godot/imported/Water Tile.glb-3885e77967e8adbbbdd9657cb5f75154.scn"
+uid="uid://x8sejsj6nbmk"
+path="res://.godot/imported/TrueHex.glb-f30f16e36c8b89bfa968712b8070e5bd.scn"
 
 [deps]
 
-source_file="res://Tiles/Water Tile.glb"
-dest_files=["res://.godot/imported/Water Tile.glb-3885e77967e8adbbbdd9657cb5f75154.scn"]
+source_file="res://Tiles/TrueHex.glb"
+dest_files=["res://.godot/imported/TrueHex.glb-f30f16e36c8b89bfa968712b8070e5bd.scn"]
 
 [params]
 

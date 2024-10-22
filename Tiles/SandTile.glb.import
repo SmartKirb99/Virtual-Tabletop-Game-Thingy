@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dcrji63pwph4l"
-path="res://.godot/imported/Grass Tile.glb-dc7eab8f25f44948186bcb3806de0774.scn"
+uid="uid://betqglwy0jj4n"
+path="res://.godot/imported/SandTile.glb-f8a4e4313978aa4d81706a75620578b7.scn"
 
 [deps]
 
-source_file="res://Tiles/Grass Tile.glb"
-dest_files=["res://.godot/imported/Grass Tile.glb-dc7eab8f25f44948186bcb3806de0774.scn"]
+source_file="res://Tiles/SandTile.glb"
+dest_files=["res://.godot/imported/SandTile.glb-f8a4e4313978aa4d81706a75620578b7.scn"]
 
 [params]
 
@@ -29,13 +29,6 @@ animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={
-"materials": {
-"77": {
-"use_external/enabled": true,
-"use_external/path": "res://Tiles/77.tres"
-}
-}
-}
+_subresources={}
 gltf/naming_version=1
 gltf/embedded_image_handling=1

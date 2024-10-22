@@ -2,19 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://spc67xktpk3v"
-path="res://.godot/imported/Shoreline Tile_0.png-ccc89fc56489e05ae65f922d509a11ad.ctex"
+uid="uid://bxjvmtlroycsk"
+path="res://.godot/imported/Hexagon.png-ca66ec51f76652c9b0e02ae31d530ef0.ctex"
 metadata={
 "vram_texture": false
-}
-generator_parameters={
-"md5": "a72cacd1cb1eabc8721d437d69e9ed6d"
 }
 
 [deps]
 
-source_file="res://Tiles/Shoreline Tile_0.png"
-dest_files=["res://.godot/imported/Shoreline Tile_0.png-ccc89fc56489e05ae65f922d509a11ad.ctex"]
+source_file="res://Tiles/Hexagon.png"
+dest_files=["res://.godot/imported/Hexagon.png-ca66ec51f76652c9b0e02ae31d530ef0.ctex"]
 
 [params]
 
@@ -24,7 +21,7 @@ compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

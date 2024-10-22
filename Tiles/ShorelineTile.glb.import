@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dxmslkh4nsfp3"
-path="res://.godot/imported/Sand Tile.glb-f3c2b20197b945b5a52737ffa06d1c96.scn"
+uid="uid://baqvgbfbmtp0i"
+path="res://.godot/imported/ShorelineTile.glb-ac3263e22a96f33e32488ea9ea6cae27.scn"
 
 [deps]
 
-source_file="res://Tiles/Sand Tile.glb"
-dest_files=["res://.godot/imported/Sand Tile.glb-f3c2b20197b945b5a52737ffa06d1c96.scn"]
+source_file="res://Tiles/ShorelineTile.glb"
+dest_files=["res://.godot/imported/ShorelineTile.glb-ac3263e22a96f33e32488ea9ea6cae27.scn"]
 
 [params]
 
