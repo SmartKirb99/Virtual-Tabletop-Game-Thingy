@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyuv4pktxm6fr"]
+
+[sub_resource type="TileSet" id="TileSet_ibm3c"]
+tile_shape = 3
+tile_layout = 1
+
+[node name="Node2D" type="TileMap"]
+tile_set = SubResource("TileSet_ibm3c")
+rendering_quadrant_size = 32
+format = 2
