@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://1y7vfddk1bgw"]
 
-[ext_resource type="Script" path="res://PlayerMovementi.gd" id="1_seu7t"]
+[ext_resource type="Script" path="res://Scripts/PlayerMovementi.gd" id="1_d1sis"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vufu1"]
 
 [node name="Node3D" type="CharacterBody3D"]
-script = ExtResource("1_seu7t")
+script = ExtResource("1_d1sis")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_vufu1")

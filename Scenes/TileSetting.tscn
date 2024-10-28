@@ -1,16 +1,16 @@
 [gd_scene load_steps=21 format=3 uid="uid://c6eofc0aomp11"]
 
-[ext_resource type="Texture2D" uid="uid://2xtsa8oe8cq7" path="res://Tiles/Tree.png" id="4_jqb35"]
-[ext_resource type="Texture2D" uid="uid://cg506gv6cltcq" path="res://Tiles/HouseTexture.png" id="5_7x2xs"]
-[ext_resource type="Texture2D" uid="uid://djgfvgvoq526c" path="res://Tiles/CubertG.png" id="8_voejm"]
-[ext_resource type="Texture2D" uid="uid://c2rmlyuelo2gu" path="res://Tiles/CubertB.png" id="9_v7d3v"]
-[ext_resource type="Texture2D" uid="uid://crok7rlq55pt0" path="res://Tiles/CubertS.png" id="10_5pwre"]
+[ext_resource type="Texture2D" uid="uid://djgfvgvoq526c" path="res://Tiles/CubertG.png" id="1_flt66"]
+[ext_resource type="Texture2D" uid="uid://c2rmlyuelo2gu" path="res://Tiles/CubertB.png" id="2_1jg5p"]
+[ext_resource type="Texture2D" uid="uid://crok7rlq55pt0" path="res://Tiles/CubertS.png" id="3_u5sl8"]
+[ext_resource type="Texture2D" uid="uid://2xtsa8oe8cq7" path="res://Tiles/Tree.png" id="4_h3w81"]
+[ext_resource type="Texture2D" uid="uid://cg506gv6cltcq" path="res://Tiles/HouseTexture.png" id="5_f3o7v"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_prvuv"]
 resource_name = "Material"
 cull_mode = 2
 albedo_color = Color(0.906332, 0.906332, 0.906332, 1)
-albedo_texture = ExtResource("8_voejm")
+albedo_texture = ExtResource("1_flt66")
 roughness = 0.5
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3gof0"]
@@ -49,7 +49,7 @@ shadow_mesh = SubResource("ArrayMesh_3gof0")
 resource_name = "Material"
 cull_mode = 2
 albedo_color = Color(0.906332, 0.906332, 0.906332, 1)
-albedo_texture = ExtResource("9_v7d3v")
+albedo_texture = ExtResource("2_1jg5p")
 roughness = 0.5
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_l7a17"]
@@ -88,7 +88,7 @@ shadow_mesh = SubResource("ArrayMesh_l7a17")
 resource_name = "Material"
 cull_mode = 2
 albedo_color = Color(0.906332, 0.906332, 0.906332, 1)
-albedo_texture = ExtResource("10_5pwre")
+albedo_texture = ExtResource("3_u5sl8")
 roughness = 0.5
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_bx3mj"]
@@ -127,7 +127,7 @@ shadow_mesh = SubResource("ArrayMesh_bx3mj")
 resource_name = "Material"
 cull_mode = 2
 albedo_color = Color(0.906332, 0.906332, 0.906332, 1)
-albedo_texture = ExtResource("4_jqb35")
+albedo_texture = ExtResource("4_h3w81")
 roughness = 0.5
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ixdck"]
@@ -165,7 +165,7 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_ixdck")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_26jx1"]
-albedo_texture = ExtResource("5_7x2xs")
+albedo_texture = ExtResource("5_f3o7v")
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_vi16d"]
 _surfaces = [{
