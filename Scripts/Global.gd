@@ -1,5 +1,5 @@
-extends Camera3D
-
+extends Node
+var intended_overlay = "Server Selection"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -8,8 +8,4 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	self.rotate_y(0.001)
-	#self.rotate_x(1)
-	#self.rotate_z(1)
-	#Don't use the number 1, that causes seizures (Probably)
-	#0.003 is likely the best option for like a panoramic view
+	pass
