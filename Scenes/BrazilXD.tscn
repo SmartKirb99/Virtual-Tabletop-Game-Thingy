@@ -1,10 +1,19 @@
-[gd_scene load_steps=8 format=3 uid="uid://cxhga7dkuacv4"]
+[gd_scene load_steps=9 format=3 uid="uid://cxhga7dkuacv4"]
 
 [ext_resource type="MeshLibrary" uid="uid://bwgemi6tr8m87" path="res://TileSet/TileSet.tres" id="1_xe87g"]
 [ext_resource type="Script" path="res://Scripts/Camera_Rotation.gd" id="2_bdb1w"]
 [ext_resource type="Texture2D" uid="uid://blhj5x224d36b" path="res://Words/NewServer.png" id="3_m2yg7"]
 [ext_resource type="Texture2D" uid="uid://dew3c1n42m4v1" path="res://Words/JoinServer.png" id="4_du4x3"]
 [ext_resource type="Script" path="res://Scripts/New Server.gd" id="4_q07vb"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_d62d7"]
+exposure_multiplier = 0.921
+dof_blur_far_enabled = true
+dof_blur_far_distance = 0.01
+dof_blur_far_transition = -1.0
+dof_blur_near_distance = 0.01
+dof_blur_near_transition = 31.95
+dof_blur_amount = 0.02
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_imyp2"]
 cull_mode = 1
@@ -23,6 +32,8 @@ metadata/_editor_floor_ = Vector3(0, 0, 0)
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.05545, 8.02669, 23.8873)
+keep_aspect = 0
+attributes = SubResource("CameraAttributesPractical_d62d7")
 script = ExtResource("2_bdb1w")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
@@ -44,9 +55,10 @@ offset_right = 1912.0
 offset_bottom = 254.0
 icon = ExtResource("4_du4x3")
 
-[node name="Join Server2" type="Button" parent="."]
+[node name="Back" type="Button" parent="."]
 offset_left = 1.0
-offset_top = 801.0
-offset_right = 359.0
-offset_bottom = 1088.0
-icon = ExtResource("4_du4x3")
+offset_top = 919.0
+offset_right = 51.0
+offset_bottom = 950.0
+scale = Vector2(5.24266, 5.24266)
+text = "Back"

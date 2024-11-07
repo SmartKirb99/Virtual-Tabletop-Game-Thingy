@@ -1,19 +1,33 @@
 extends CharacterBody3D
-var speed = 3.5
-#Welp there goes Gravity
 
-# X,Y,Z X/Length, Y/Height, Z/Width
+@export var speed = 7 # Fast
+@export var gravity = 0
 
-func _physics_process(delta):
+ # 0,0,0 X/Length, Y/Height, Z/Width
+
+func _physics_process(delta): # Delta prevents lag spikes, and _physics_process processes physics
+	var direction = Vector3.ZERO
+	if not is_on_floor():
+		velocity.y -= gravity * delta
+	else:
+		velocity.y = 0
+	
+
 	if Input.is_action_pressed("Right"):
-		self.translate(Vector3.RIGHT)
+		rotate_y(-0.05)
+		#direction.x -= 1
 	if Input.is_action_pressed("Left"):
-		self.translate(Vector3.LEFT)
+		rotate_y(0.05)
+		#direction.x += 1
 	if Input.is_action_pressed("Forward"):
-		self.translate(Vector3.FORWARD)
+		#rotate_y(90)
+		direction.z = -1
 	if Input.is_action_pressed("Backward"):
-		self.translate(Vector3.BACK)
-	if Input.is_action_pressed("Down"):
-		self.translate(Vector3.DOWN)
-	if Input.is_action_pressed("Up"):
-		self.translate(Vector3.UP)
+		#rotate_z(-90)
+		direction.z = 1
+
+	
+	var saveY = self.velocity.y
+	self.velocity = self.transform.basis.z.normalized() * direction.z * speed
+	self.velocity.y = saveY
+	move_and_slide()

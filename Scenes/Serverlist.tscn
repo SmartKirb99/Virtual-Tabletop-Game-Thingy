@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://lsvm540dchw5"]
 
 [node name="Control" type="Control"]
+z_index = 1
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -19,7 +20,7 @@ scroll_active = false
 autowrap_mode = 2
 text_direction = 1
 
-[node name="TextEdit" type="TextEdit" parent="."]
+[node name="TextEdit" type="LineEdit" parent="."]
 layout_mode = 0
 offset_left = 194.0
 offset_top = 29.0
